@@ -9,7 +9,7 @@ int main()
     printf("Enter the width of rectangle\n");
     scanf("%f", &width);
 
-    perimeter = 2 * (length + width);
+    perimeter = 2 * (length + width); // Will calculate the perimeter of the rectangle
     printf("The perimeter of rectangle is %f", perimeter);
     return 0;
 }
